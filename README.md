@@ -1,6 +1,6 @@
-# Chrome Extension with MockAPI Node.js Server
+# Chrome Extension with mock API Node.js Server
 
-This repository contains a Chrome extension that interacts with a mockAPI Node.js server.
+This repository contains a Chrome extension that interacts with a mock API Node.js server.
 
 ## Prerequisites
 
@@ -14,12 +14,14 @@ This repository contains a Chrome extension that interacts with a mockAPI Node.j
    ```bash
    git clone https://github.com/saudjafar/ChatAI-Extension
 
-2. Set Up the MockAPI Node.js Server using the following terminal commands inside the "Backend" folder:
+2. Set Up the MockAPI Node.js Server using the following terminal commands inside the "Backend" folder, after which
+   the MockAPI server should be running at `http://localhost:3000`.
 
-    ```bash
+   ```bash
     npm install
     npm start
-  The MockAPI server should now be running at `http://localhost:3000`.
+
+
 
 4. Load the Chrome Extension:
 
