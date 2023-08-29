@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+  <header>
+    <h1 class="heading">ChatAI</h1>
+  </header>
+
+  <div class="input-container">
+    <input class="input-field" type="text" id="messageInput" placeholder="Type your message">
+    <img src="send-icon-2.png" id="sendMessageIcon" alt="Send Message">
+  </div>
+
+  <div id="errorMessage" class="error-message">Please enter a message.</div>
+
+
+  <div id="loadingSpinner"></div>
+
+
+  <div class="qr-container" id="qrContainer">
+    <div class="question-container">
+      <p>Question: <span id="questionText"></span></p>
+    </div>
+
+    <div class="response-container" id="responseContainer">
+      <p>Response: <span id="responseText"></span></p>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+﻿{
+  "name": "ChatAI",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Chrome Extension to display AI generated responses for queries",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "ai.png"
+    }
+  }
+}
