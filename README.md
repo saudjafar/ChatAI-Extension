@@ -24,13 +24,14 @@ The **ChatAI Chrome Extension** is a simple extension designed to showcase inter
    ```bash
    git clone https://github.com/saudjafar/ChatAI-Extension
 
-2. Set Up the MockAPI Node.js Server using the following terminal commands inside the "Backend" folder, after which
+2. Set Up the MockAPI Node.js Server using the following terminal commands, after which
    the mock API server should be running at `http://localhost:3000`.
 
    ```bash
+    cd ChatAI-Extension
+    cd Backend
     npm install
     npm start
-
 
 
 4. Load the Chrome Extension:
@@ -40,3 +41,5 @@ The **ChatAI Chrome Extension** is a simple extension designed to showcase inter
 - Toggle on "Developer mode".
 - Click "Load unpacked".
 - Select the "Extension" folder in the repository.
+
+5. The extension should be up and running.
