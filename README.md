@@ -1,6 +1,16 @@
-# Chrome Extension with mock API Node.js Server
+# ChatAI Chrome Extension
 
-This repository contains a Chrome extension that interacts with a mock API Node.js server.
+## Project Overview
+The **ChatAI Chrome Extension** is a simple extension designed to showcase interaction with a mock API. This README offers insights into the project's implementation.
+
+## Design Aspects
+- **User Interface:** The extension features a clean interface housing an input field for messages and a send button for quick interactions.
+- **Asynchronous Behavior:** To replicate real-world scenarios, a simulated delay precedes API calls. This highlights the importance of feedback via loading spinners during network requests.
+
+## Challenges
+- **Asynchronous Response Handling:** The `.then()` syntax effectively manages API responses, ensuring proper display and spinner usage.
+- **Error Management:** A `catch` block is implemented to handle potential API call errors. It displays messages in the UI and logs debug information.
+- **Input Validation:** Users receive error messages if they attempt to send empty messages, guiding them toward proper usage.
 
 ## Prerequisites
 
