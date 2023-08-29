@@ -33,9 +33,7 @@ The **ChatAI Chrome Extension** is a simple extension designed to showcase inter
     npm install
     npm start
 
-
 3. Load the Chrome Extension:
-
 - Open Google Chrome.
 - Visit chrome://extensions/.
 - Toggle on "Developer mode".
