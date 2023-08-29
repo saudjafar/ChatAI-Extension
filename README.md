@@ -15,7 +15,7 @@ This repository contains a Chrome extension that interacts with a mock API Node.
    git clone https://github.com/saudjafar/ChatAI-Extension
 
 2. Set Up the MockAPI Node.js Server using the following terminal commands inside the "Backend" folder, after which
-   the MockAPI server should be running at `http://localhost:3000`.
+   the mock API server should be running at `http://localhost:3000`.
 
    ```bash
     npm install
