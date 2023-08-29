@@ -34,7 +34,7 @@ The **ChatAI Chrome Extension** is a simple extension designed to showcase inter
     npm start
 
 
-4. Load the Chrome Extension:
+3. Load the Chrome Extension:
 
 - Open Google Chrome.
 - Visit chrome://extensions/.
@@ -42,4 +42,4 @@ The **ChatAI Chrome Extension** is a simple extension designed to showcase inter
 - Click "Load unpacked".
 - Select the "Extension" folder in the repository.
 
-5. The extension should be up and running.
+4. The extension should be up and running.
